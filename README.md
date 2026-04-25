@@ -1,16 +1,22 @@
-**Renewable Energy PMO Dashboard (Excel)**
+# Renewable Energy PMO Dashboard + Automation
+## Portfolio Operational Support Ready
+
+**Live Demo:** [pmo-task-approval-demo](link-github-pages)
+
+![Demo GIF ou Screenshot]
 
 **Objective**
 
 To design and implement a dynamic PMO dashboard in Excel that enables monitoring, planning, and analysis of renewable energy projects (Solar, Wind, Hydrogen, Storage), supporting data-driven decision-making.
 
 Key Features
-- Automated task scheduling based on project duration
+- Automated task scheduling (duration/tech logic)
 - Technology-driven task logic (Solar, Wind, H2, Storage)
-- Dynamic Gantt chart with timeline visualization
+- Dynamic Gantt chart + timeline
 - KPI dashboard (CAPEX, Capacity, ROI, Project Status)
 - Workload and risk analysis
 - Interactive filters (slicers)
+-  **Power Automate approval workflow** 
 
 
 **Data Model**
@@ -82,27 +88,16 @@ A front-end prototype (HTML/CSS/JavaScript) was developed to simulate this workf
 *  Improved visibility of task status
 *  Standardized approval process
   
-Manual Process (Estimated)
+## Expected Impact (Quantified)
 
-- Excel updates → ~10 min/day  
-- Email communication → ~10 min/day  
-- Follow-ups → ~10 min/day  
+| Manual Process | Automated Process | Time Savings |
+|----------------|------------------|--------------|
+| 30 min/day     | 5 min/day        | **25 min/day** |
+| 2.5 hours/week | 0.5 hours/week   | **2 hours/week** |
+| 10 hours/month | 2 hours/month    | **8 hours/month** |
+| 120 hours/year | 24 hours/year    | **96 hours/year (~12 working days)** |
 
- Total: ~30 min/day  
-
-With Automation  (Estimated)
-
-- Minimal manual intervention (~0–5 min/day)
-
-Time Savings (Estimated)
-
-- ~25 min/day  
-- ~2 hours/week  
-- ~8 hours/month  
-- ~96 hours/year (~12 working days)
-
-This reduction allows PMOs to focus on higher-value activities such as analysis, risk management, and stakeholder communication.
-
+This represents a significant efficiency gain in PMO operations, enabling teams to reduce administrative effort and focus on higher-value activities such as analysis, risk management, and stakeholder communication.
 
 ### Real-World Implementation
 
