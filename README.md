@@ -1,114 +1,67 @@
-# Renewable Energy PMO Dashboard + Automation
-## Portfolio Operational Support Ready
+# Renewable Energy PMO Dashboard + Workflow Automation
 
 **Live Demo:** [[pmo-task-approval-demo](link-github-pages)](https://anasalsas.github.io/renewable-energy-pmo-dashboard/)
 
 <img width="1903" height="867" alt="image" src="https://github.com/user-attachments/assets/9369a61d-dc94-4ef0-b79a-99898732ec32" />
 
+## Objective
 
-**Objective**
+To design an integrated PMO solution combining Excel-based portfolio monitoring with an automated task approval workflow, enabling improved planning, execution efficiency, and data-driven decision-making in renewable energy projects (Solar, Wind, Hydrogen, Storage).
 
-To design and implement a dynamic PMO dashboard in Excel that enables monitoring, planning, and analysis of renewable energy projects (Solar, Wind, Hydrogen, Storage), supporting data-driven decision-making.
+## Key Features
 
-Key Features
-- Automated task scheduling (duration/tech logic)
-- Technology-driven task logic (Solar, Wind, H2, Storage)
-- Dynamic Gantt chart + timeline
-- KPI dashboard (CAPEX, Capacity, ROI, Project Status)
-- Workload and risk analysis
-- Interactive filters (slicers)
--  **Power Automate approval workflow** 
+- Automated task scheduling based on project duration and technology logic  
+- Dynamic Gantt chart for timeline visualization  
+- KPI dashboard (CAPEX, Capacity, ROI, Project Status)  
+- Workload and risk analysis  
+- Interactive filtering (slicers)  
+- Automated approval workflow concept (Power Automate)  
 
+## Data Model
 
-**Data Model**
+- Projects → high-level portfolio structure  
+- Tasks → execution-level planning  
+- Task Logic → rules for sequencing and duration  
 
-The model is structured into three main layers:
-- Projects → high-level project data
-- Tasks → detailed execution plan
-- Task Logic (Lists) → rules for task sequencing and duration
+## Workflow Automation (Conceptual)
 
+### Challenge
+Task approvals and status updates are still manually managed, leading to delays and inconsistent tracking.
 
-**Process Logic**
-- Projects define start and end dates
-- Tasks are generated and aligned per project
-- Task timing is calculated using:
-- Priority
-- Technology type
-- Relative duration (%)
+### Solution
+A workflow automation layer using Microsoft Power Automate:
 
-**Output feeds:**
-- Gantt chart
-- Dashboard KPIs
+1. Task created/updated in Excel  
+2. Automatic approval trigger  
+3. PM approval via Outlook/Teams  
+4. Status updated automatically  
+5. Team notification sent  
 
-**Business Value**
-- Improves visibility of project timelines
-- Enables early identification of delays and risks
-- Supports resource and workload management
-- Provides a scalable framework for PMO operations
+## Business Value
 
-**Use Cases**
-- PMO reporting
-- Portfolio management
-- Renewable energy planning
-- Scenario analysis
+- Improved visibility of project execution  
+- Reduced manual coordination effort  
+- Standardized approval process  
+- Enhanced portfolio control  
 
-
-## PMO Workflow Automation
-
-### Objective
-
-To extend the Excel-based PMO dashboard by introducing an automated task approval workflow, reducing manual coordination and improving execution efficiency.
-The goal is to shift the PMO from administrative work to value-added analysis.
-
-### Current Challenge
-
-While the Excel dashboard provides strong planning and monitoring capabilities, task approval and status updates are still manual, leading to:
-
-* Time-consuming follow-ups
-* Risk of outdated information
-* Limited real-time coordination
-
-### Proposed Solution
-
-Implement a workflow automation layer using Microsoft Power Automate:
-
-1. Task created or updated in Excel (Planned)
-2. Automatic trigger for approval request
-3. PM receives notification (Outlook / Teams)
-4. Approval or rejection action
-5. Task status automatically updated (Complete)
-6. Team notified automatically
-
-### Conceptual Prototype
-
-A front-end prototype (HTML/CSS/JavaScript) was developed to simulate this workflow and validate the process logic before implementation.
-
-### Expected Impact
-
-*  Reduced manual coordination
-*  Improved visibility of task status
-*  Standardized approval process
-  
-## Expected Impact (Quantified)
+## Expected Impact
 
 | Manual Process | Automated Process | Time Savings |
 |----------------|------------------|--------------|
-| 30 min/day     | 5 min/day        | **25 min/day** |
-| 2.5 hours/week | 0.5 hours/week   | **2 hours/week** |
-| 10 hours/month | 2 hours/month    | **8 hours/month** |
-| 120 hours/year | 24 hours/year    | **96 hours/year (~12 working days)** |
+| 30 min/day     | 5 min/day        | 25 min/day   |
+| 2.5 hours/week | 0.5 hours/week   | 2 hours/week |
+| 10 hours/month | 2 hours/month    | 8 hours/month |
+| 120 hours/year | 24 hours/year    | 96 hours/year (~12 working days) |
 
-This represents a significant efficiency gain in PMO operations, enabling teams to reduce administrative effort and focus on higher-value activities such as analysis, risk management, and stakeholder communication.
 
-### Real-World Implementation
+## Real-World Implementation
 
-In a real business environment, this workflow would be implemented using Microsoft Power Automate integrated with Excel (OneDrive/SharePoint) and Teams or Outlook.
+In a production environment, this solution would be implemented using:
+- Microsoft Excel (OneDrive/SharePoint)
+- Microsoft Power Automate
+- Microsoft Teams / Outlook notifications
+- Power BI for reporting and analytics
 
-Due to GitHub limitations (static environment), this repository includes a front-end prototype to simulate the workflow logic.
+## Key Insight
 
-### Future Integration
-
-* Power BI dashboard connection
-* Real-time updates
-* Automated reporting
-  
+This project demonstrates how PMO processes can evolve from manual tracking to an integrated digital workflow combining planning, execution, and automation layers.
