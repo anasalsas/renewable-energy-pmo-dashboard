@@ -1,9 +1,10 @@
 # Renewable Energy PMO Dashboard + Automation
 ## Portfolio Operational Support Ready
 
-**Live Demo:** [pmo-task-approval-demo](link-github-pages)
+**Live Demo:** [[pmo-task-approval-demo](link-github-pages)](https://anasalsas.github.io/renewable-energy-pmo-dashboard/)
 
-![Demo GIF ou Screenshot]
+<img width="1903" height="867" alt="image" src="https://github.com/user-attachments/assets/9369a61d-dc94-4ef0-b79a-99898732ec32" />
+
 
 **Objective**
 
